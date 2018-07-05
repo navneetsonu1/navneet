@@ -13,6 +13,7 @@ public class StringCalculatorTest {
 	@Test(expected = RuntimeException.class)
 	public void testIsNumberMoreThanTwo(){
 		StringCalculator.add("1,4,6");
+		System.out.println("hi");
 	}
 	
 }
